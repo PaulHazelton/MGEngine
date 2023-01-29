@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework.Input;
 using BrokenH.MGEngine.Input;
 using BrokenH.MGEngine.Input.Interfaces;
 
-namespace Recoil.Main.Framework
+namespace BrokenH.MGEngine.Framework
 {
 	public abstract class GameEnvironment : IInputHandler, IDisposable
 	{

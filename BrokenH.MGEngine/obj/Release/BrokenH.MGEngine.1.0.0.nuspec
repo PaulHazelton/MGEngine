@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>BrokenH.MGEngine</id>
+    <version>1.0.0</version>
+    <title>Broken Hourgless - MGEngine</title>
+    <authors>Paul Hazelton</authors>
+    <readme>README.md</readme>
+    <description>MGEngine! My own collection of tools to make 2D games in MonoGame!
+This nuget package is mostly for me, but feel free to use this in your projects</description>
+    <copyright>2023</copyright>
+    <repository url="https://github.com/PaulHazelton/MGEngine" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\hazel\Documents\0-Projects\MGEngine\BrokenH.MGEngine\bin\Release\net6.0\BrokenH.MGEngine.dll" target="lib\net6.0\BrokenH.MGEngine.dll" />
+    <file src="C:\Users\hazel\Documents\0-Projects\MGEngine\README.md" target="\README.md" />
+  </files>
+</package>

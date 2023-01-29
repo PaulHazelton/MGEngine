@@ -12,7 +12,7 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Broken Hourglass")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("2023")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("MGEngine! My own collection of tools to make 2D games in MonoGame!\r\nThis nuget pa" +
     "ckage is mostly for me, but feel free to use this in your projects")]

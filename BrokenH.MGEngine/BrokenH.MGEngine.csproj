@@ -4,9 +4,20 @@
 	<Nullable>enable</Nullable>
 	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	<Title>Broken Hourgless - MGEngine</Title>
-	<Description>This nuget package is mostly for me, but feel free to use this in your projects</Description>
-	<Copyright>MIT</Copyright>
+	<Description>MGEngine! My own collection of tools to make 2D games in MonoGame!
+This nuget package is mostly for me, but feel free to use this in your projects</Description>
+	<Copyright>2023</Copyright>
+	<RepositoryUrl>https://github.com/PaulHazelton/MGEngine</RepositoryUrl>
+	<Company>Broken Hourglass</Company>
+	<Authors>Paul Hazelton</Authors>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MonoGame.Framework.DesktopGL" Version="3.8.0.1641">
       <PrivateAssets>All</PrivateAssets>
