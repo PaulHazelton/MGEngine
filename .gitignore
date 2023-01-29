@@ -1,0 +1,13 @@
+# vscode settings changes regularly
+.vscode/settings.json
+
+# Visual Studio stuff
+.vs
+
+# Build results
+[Rr]elease/
+x64/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
